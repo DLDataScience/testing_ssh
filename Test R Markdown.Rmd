@@ -39,3 +39,16 @@ xm <- mean(x)
 c(xm, mean(x, trim = 0.10))
 ```
 
+### Formatting Tests
+
+- Formatting
+- Test
+- One
+
+**Very** ~~neat~~ *groovy*.
+
+- Formatting  
+- Test  
+- Two  
+
+*AMAZING* music [here](https://levymusicgroup.com/content)
