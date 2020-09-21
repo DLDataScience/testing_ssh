@@ -28,3 +28,14 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### Base R
+
+Now we will explore a simple example of the `mean` function and its arguments.
+
+```{r mean}
+x <- c(0:10, 50)
+xm <- mean(x)
+c(xm, mean(x, trim = 0.10))
+```
+
